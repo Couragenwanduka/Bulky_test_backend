@@ -1,11 +1,11 @@
-# 🛒 E-Commerce API
+# E-Commerce API
 
 A backend API for an e-commerce application, built with **Node.js, Express, Prisma ORM, and PostgreSQL**.  
 It supports product management, authentication, wishlists, and admin features.
 
 ---
 
-## 🚀 Features
+##  Features
 - User authentication & authorization (JWT)
 - Product CRUD (Create, Read, Update, Delete)
 - Image upload (up to 9 images per product)
@@ -15,7 +15,7 @@ It supports product management, authentication, wishlists, and admin features.
 
 ---
 
-## 📦 Tech Stack
+##  Tech Stack
 - **Node.js** + **Express.js**
 - **Prisma ORM** with PostgreSQL
 - **Multer / Cloudinary** (for file uploads)
@@ -54,7 +54,7 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 ```
 
-👉 See `.env.example` for guidance.
+ See `.env.example` for guidance.
 
 ### 4️⃣ Prisma setup
 Run migrations and generate the Prisma client:
