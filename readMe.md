@@ -28,7 +28,7 @@ It supports product management, authentication, wishlists, and admin features.
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/Couragenwanduka/Bulky_test_frontend.git
+git clone https://github.com/Couragenwanduka/Bulky_test_backend.git
 cd Bulky_test_frontend
 ```
 
