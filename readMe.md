@@ -1,5 +1,3 @@
-
-````markdown
 # 🛒 E-Commerce API
 
 A backend API for an e-commerce application, built with **Node.js, Express, Prisma ORM, and PostgreSQL**.  
@@ -31,17 +29,15 @@ It supports product management, authentication, wishlists, and admin features.
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Couragenwanduka/Bulky_test_frontend.git
-cd ecommerce-api
-````
+cd Bulky_test_frontend
+```
 
 ### 2️⃣ Install dependencies
-
 ```bash
 npm install
 ```
 
 ### 3️⃣ Environment variables
-
 Create a `.env` file in the root folder and add the following:
 
 ```env
@@ -61,25 +57,19 @@ CLOUDINARY_API_SECRET=your_api_secret
 👉 See `.env.example` for guidance.
 
 ### 4️⃣ Prisma setup
-
 Run migrations and generate the Prisma client:
-
 ```bash
 npx prisma migrate dev --name init
 npx prisma generate
 ```
 
 (Optional) To seed the database:
-
 ```bash
 npm run seed
 ```
 
 ### 5️⃣ Start the server
-
 ```bash
 npm run dev   # for development (with nodemon)
 npm start     # for production
 ```
-
-
