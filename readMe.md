@@ -46,7 +46,7 @@ DATABASE_URL="postgresql://username:password@localhost:5432/ecommerce_db"
 
 # JWT
 JWT_SECRET="your_jwt_secret_here"
-JWT_EXPIRES_IN="7d"
+
 
 # File uploads (Cloudinary example)
 CLOUDINARY_CLOUD_NAME=your_cloud_name
